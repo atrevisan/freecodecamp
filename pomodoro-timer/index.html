@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>A cool pomodoro timer</title>
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container-fluid" style="background: #3D3939;  color: white;
+  font-size: 120%;">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class="text-danger text-center" style="font-family: Lobster"> Pomodoro Timer</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="container-fluid wrapper">
+        <div class="row text-center" style="font-size: 80%">
+          SESSION LENGTH
+        </div>
+        <div class="row">
+          
+          <div class="col-xs-4">
+            <a href="#" class="math-button glyphicon glyphicon-plus session-length-button"></a>
+          </div>
+
+          <div class="col-xs-4 text-center">
+            <spam id="session-length" style="font-size: 140%">25</spam> 
+          </div>
+
+          <div class="col-xs-4">
+            <a href="#" class="math-button glyphicon glyphicon-minus session-length-button"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 text-center">  
+      <div class="container-fluid wrapper">
+         <div class="row text-center" style="font-size: 80%">
+          BREAK LENGTH
+        </div>
+        
+        <div class="row">
+          <div class="col-xs-4">
+            <a href="#" class="math-button glyphicon glyphicon-plus break-length-button"></a>
+          </div>
+
+          <div class="col-xs-4 text-center">
+            <spam id="break-length" style="font-size: 140%">5</spam> 
+          </div>
+
+          <div class="col-xs-4">
+            <a href="#" class="math-button glyphicon glyphicon-minus break-length-button"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="circle-base container">
+        <a id="clock-button" href="#" class="fill-div">
+         
+          <div class="pomodoro-session-text">
+            <h1 id="clock-text" class="text-center"> Session</h1>
+            <h1 id="clock-timer" class="text-center"> 25</h1>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
